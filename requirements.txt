@@ -1,0 +1,13 @@
+# Streamlit Framework
+streamlit==1.42.0
+
+# Core ML & Data Handling
+pandas==2.2.3
+numpy==1.26.4
+torch==2.5.1
+lightning==2.5.0
+
+# Cheminformatics
+chemprop==2.1.0
+rdkit-pypi==2024.09.3
+Pillow==11.0.0
