@@ -1,6 +1,6 @@
 # 🧪 Antioxidant Property Predictor
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([LINK-TO-YOUR-DEPLOYED-STREAMLIT-APP])
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://antioxidant-predict.streamlit.app)
 
 This repository contains the source code for a web application that predicts antioxidant properties (Ionization Potential, Bond Dissociation Energy, and Proton Affinity) for molecules from their SMILES strings.
 
@@ -11,7 +11,7 @@ The application is built with Streamlit and uses Graph Neural Network (GNN) mode
 
 ## 🚀 Live Application
 
-You can access the live application here: **[Link to Your Deployed Streamlit App]([LINK-TO-YOUR-DEPLOYED-STREAMLIT-APP])**
+You can access the live application here: **[Link to Your Deployed Streamlit App](https://antioxidant-predict.streamlit.app)**
 
 ## 📖 Citation
 
