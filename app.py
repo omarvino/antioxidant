@@ -60,12 +60,19 @@ def get_model(ckpt_path):
 
 def run_pred(model, smis):
     if not smis: return np.array([])
+    device = torch.device('cpu')
+    model.eval()
+    model.to(device)
     f = featurizers.SimpleMoleculeMolGraphFeaturizer()
     dps = [data.MoleculeDatapoint.from_smi(s) for s in smis]
     ds = data.MoleculeDataset(dps, featurizer=f)
     dl = data.build_dataloader(ds, shuffle=False, num_workers=0)
-    trainer = pl.Trainer(logger=None, enable_progress_bar=False, accelerator="cpu", devices=1)
-    preds = trainer.predict(model, dl)
+    all_preds = []
+    with torch.no_grad():
+        for batch in dl:
+            batch = batch.to(device)
+            batch_preds = model(batch)
+            all_preds.append(batch_preds.cpu().numpy())
     return np.concatenate(preds, axis=0)
 
 def main():
