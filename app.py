@@ -56,9 +56,7 @@ def gen_bde(smi):
 
 @st.cache_resource
 def get_model(ckpt_path):
-    model = models.MPNN.load_from_checkpoint(ckpt_path, map_location=torch.device('cpu'))
-    model.to(torch.device('cpu'))
-    return model
+    return models.MPNN.load_from_checkpoint(ckpt_path, map_location=torch.device('cpu'))
 
 def run_pred(model, smis):
     if not smis: return np.array([])
@@ -107,9 +105,9 @@ def main():
     p = Path("./checkpoints")
     p.mkdir(exist_ok=True)
     ckpt_paths = {
-        "IP": p / "ip_model.ckpt", "BDE_site": p / "bde_site_model.ckpt",
-        "PA_site": p / "pa_site_model.ckpt", "BDE_mol": p / "bde_mol_model.ckpt",
-        "PA_mol": p / "pa_mol_model.ckpt",
+        "IP": p / "ip_model_cpu.ckpt", "BDE_site": p / "bde_site_model_cpu.ckpt",
+        "PA_site": p / "pa_site_model_cpu.ckpt", "BDE_mol": p / "bde_mol_model_cpu.ckpt",
+        "PA_mol": p / "pa_mol_model_cpu.ckpt",
     }
     for path in ckpt_paths.values():
         path.touch()
