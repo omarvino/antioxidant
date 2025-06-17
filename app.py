@@ -73,7 +73,7 @@ def run_pred(model, smis):
             batch = batch.to(device)
             batch_preds = model(batch)
             all_preds.append(batch_preds.cpu().numpy())
-    return np.concatenate(preds, axis=0)
+    return np.concatenate(all_preds, axis=0)
 
 def main():
     st.set_page_config(page_title="Antioxidant Property Predictor", layout="wide")
