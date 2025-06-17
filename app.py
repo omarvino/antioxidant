@@ -57,7 +57,7 @@ def gen_bde(smi):
 @st.cache_resource
 def get_model(ckpt_path):
     model = models.MPNN.load_from_checkpoint(ckpt_path, map_location=torch.device('cpu'))
-    model.to(torch.device(('cpu'))
+    model.to(torch.device('cpu'))
     return model
 
 def run_pred(model, smis):
