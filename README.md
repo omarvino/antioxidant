@@ -6,12 +6,11 @@ This repository contains the source code for a web application that predicts ant
 
 The application is built with Streamlit and uses Graph Neural Network (GNN) models developed with PyTorch Lightning and Chemprop.
 
-![App Screenshot]([LINK-TO-A-SCREENSHOT-OF-YOUR-APP])
-*(You can upload a screenshot to your GitHub repo and link it here)*
+![App Screenshot](https://github.com/omarvino/antioxidant/blob/main/assets/screenshot.png)
 
 ## 🚀 Live Application
 
-You can access the live application here: **[Link to Your Deployed Streamlit App](https://antioxidant-predict.streamlit.app)**
+You can access the live application here: **[Antioxidant Property Predictor](https://antioxidant-predict.streamlit.app)**
 
 ## 📖 Citation
 
