@@ -1,0 +1,1 @@
+For each model, two types of checkpoint files are provided: one trained using MPS (Metal Performance Shaders) and the other converted for CPU compatibility (with suffix '_cpu') to ensure broader platform support.
