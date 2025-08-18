@@ -16,7 +16,7 @@ def draw_mol(m, highlights=None, size=(400, 400)):
         for i, idx in enumerate(highlights, 1):
             mc.GetAtomWithIdx(idx).SetProp('molAtomMapNumber', str(i))
     opts = Draw.MolDrawOptions()
-    opts.includeAtomNumbers = False
+    #opts.includeAtomNumbers = False
     opts.addAtomIndices = False
     opts.bondLineWidth = 2
     opts.fixedBondLength = 30
