@@ -69,13 +69,14 @@ def run_pred(model, smis):
     return np.concatenate(preds, axis=0)
 
 def main():
-    st.set_page_config(page_title="Antioxidant Property Predictor", layout="wide")
+    st.set_page_config(page_title="Thermodynamic Descriptor Predictor for Antioxidant Reactivity", layout="wide")
 
     with st.sidebar:
         st.header("About This App")
         st.info(
             "This application uses Graph Neural Network (GNN) models to predict "
-            "antioxidant properties (IP, BDE, PA) from a molecule's SMILES string."
+            "thermodynamic descriptors (IP, BDE, PA) of antioxidant reactivity "
+            "from a molecule's SMILES string."
         )
         st.markdown(
             """
@@ -83,7 +84,7 @@ def main():
             **How to Cite**  
             If you use this tool in your research, please cite our manuscript:
 
-            > Z. M. Wong; D. W. P. Tay; Y. H. Lim; S. J. Ang. (2025). *An Iterative DFT and Machine Learning Strategy for High-Throughput Antioxidant Screening of Flavan-3-ols*.  
+            > Z. M. Wong; D. W. P. Tay; Y. H. Lim; S. J. Ang. (2025). *A Computational Framework for Predicting Thermodynamic Descriptors of Antioxidant Reactivity in Flavan-3-ols Via Active Learning*.  
             > *Manuscript Submitted*  
             > [DOI Link Here](https://doi.org/your-doi-link)
 
@@ -92,10 +93,10 @@ def main():
             """
         )
     
-    st.title("🧪 Antioxidant Property Predictor")
+    st.title("🧪 Thermodynamic Descriptor Predictor for Antioxidant Reactivity")
     st.markdown(
         """
-        Enter a molecule's SMILES string to predict its antioxidant properties. All values are in **kcal/mol**.
+        Enter a molecule's SMILES string to predict its thermodynamic descriptors of antioxidant reactivity. All values are in **kcal/mol**.
         - **IP**: Ionization Potential
         - **BDE**: O-H Bond Dissociation Energy
         - **PA**: Proton Affinity
