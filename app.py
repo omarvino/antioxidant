@@ -84,7 +84,7 @@ def main():
             **How to Cite**  
             If you use this tool in your research, please cite our manuscript:
 
-            > Z. M. Wong; D. W. P. Tay; Y. H. Lim; S. J. Ang. (2025). *A Computational Framework for Predicting Thermodynamic Descriptors of Antioxidant Reactivity in Flavan-3-ols Via Active Learning*.  
+            > Z. M. Wong; Y. S. Koo; Y. H. Lim; D. W. P. Tay; S. J. Ang. (2026). *A Computational Framework for Predicting Thermodynamic Descriptors of Antioxidant Reactivity in Flavan-3-ols Via Active Learning*.  
             > *Manuscript Submitted*  
             > [DOI Link Here](https://doi.org/your-doi-link)
 
