@@ -16,7 +16,7 @@ You can access the live application here: **[Thermodynamic Descriptor Predictor 
 
 This web application and the underlying models were developed as part of our research. If you use this tool in your work, please cite our manuscript:
 
-> **Z. M. Wong; D. W. P. Tay; Y. H. Lim; S. J. Ang. (2025). *A Computational Framework for Predicting Thermodynamic Descriptors of Antioxidant Reactivity in Flavan-3-ols Via Active Learning*.**  
+> **Z. M. Wong; Y. S. Koo; Y. H. Lim; D. W. P. Tay; S. J. Ang. (2026). *A Computational Framework for Predicting Thermodynamic Descriptors of Antioxidant Reactivity in Flavan-3-ols Via Active Learning*.**  
 > ***Manuscript Submitted***, *Volume(Issue)*, pages.  
 > **DOI:** [https://doi.org/your-doi-link](https://doi.org/your-doi-link)
 
