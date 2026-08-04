@@ -84,9 +84,9 @@ def main():
             **How to Cite**  
             If you use this tool in your research, please cite our manuscript:
 
-            > Z. M. Wong; Y. S. Koo; Y. H. Lim; D. W. P. Tay; S. J. Ang. (2026). *A Computational Framework for Predicting Thermodynamic Descriptors of Antioxidant Reactivity in Flavan-3-ols Via Active Learning*.  
-            > *Manuscript Submitted*  
-            > [DOI Link Here](https://doi.org/your-doi-link)
+            > Z. M. Wong; Y. S. Koo; Y. H. Lim; D. W. P. Tay; S. J. Ang. (2026). *High-Throughput Screening of Flavan-3-ol Antioxidants through DFT-Guided Machine Learning*.  
+            > International Journal of Quantum Chemistry (2026), 126 (15), e70270.  
+            > [https://doi.org/10.1002/qua.70270](https://doi.org/10.1002/qua.70270)
 
             **Source Code**  
             The code for this application is available on [GitHub](https://github.com/omarvino/antioxidant).
