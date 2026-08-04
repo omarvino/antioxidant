@@ -85,7 +85,7 @@ def main():
             If you use this tool in your research, please cite our manuscript:
 
             > Z. M. Wong; Y. S. Koo; Y. H. Lim; D. W. P. Tay; S. J. Ang. (2026). *High-Throughput Screening of Flavan-3-ol Antioxidants through DFT-Guided Machine Learning*.  
-            > International Journal of Quantum Chemistry (2026), 126 (15), e70270.  
+            > International Journal of Quantum Chemistry, 126 (15), e70270.  
             > [https://doi.org/10.1002/qua.70270](https://doi.org/10.1002/qua.70270)
 
             **Source Code**  
